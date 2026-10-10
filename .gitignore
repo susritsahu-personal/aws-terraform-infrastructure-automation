@@ -1,0 +1,21 @@
+# Terraform working files
+.terraform/
+
+# Terraform state can contain sensitive information
+*.tfstate
+*.tfstate.*
+
+# Variable files may contain secrets
+*.tfvars
+*.tfvars.json
+
+# Saved plan files
+*.tfplan
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Local CLI configuration
+.terraformrc
+terraform.rc
