@@ -45,3 +45,16 @@ terraform validate
 terraform plan
 terraform apply
 terraform output
+```
+
+## Destroy Infrastructure
+
+To remove the AWS resources provisioned by Terraform when they are no longer needed, run:
+
+```powershell
+terraform destroy
+```
+
+Review the destruction plan carefully and type `yes` to confirm resource deletion.
+
+**Note:** This command permanently removes the Terraform-managed AWS resources. Execute it only when the infrastructure is no longer required.
